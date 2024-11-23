@@ -214,3 +214,23 @@ box-shadow: 0 0 35px 0 #0b3d190f;
     line-height: 76px;
     padding-right: 744px;
 }
+
+
+
+/* FOR A GREAT TREE */
+
+.great-tree{
+    padding: 100px 0;
+}
+.great-tree .tree-title h3{
+    color: #3E7736;
+    font-size: 40px;
+    line-height: 51.2px;
+}
+.great-item{
+    box-shadow: 0px 0px 35px 0px #0000000D;
+    border-radius: 20px 0 20px 0;
+    width: 460px;
+    height: 287px;
+    padding: 25px 20px;
+}
