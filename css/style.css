@@ -172,3 +172,27 @@ box-shadow: 0 0 35px 0 #0b3d190f;
 
 /* OUR TEAM */
 
+.our-team{
+    padding:100px 0;
+}
+.our-team .team-title h1{
+    color: #3E7736;
+    font-size: 40px;
+    list-style: 51.2px;
+}
+.our-team .team-content{
+    box-shadow: 0 0 35px 0 #0b3d190f;
+    border-radius: 20px 0 20px 0;
+}
+.our-team .team-image {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    width: 460px;
+    height: 340px;
+}
+.our-team .team-content{
+    padding-top: 160px;
+    margin: 110px 25px 0 25px;
+}
+
