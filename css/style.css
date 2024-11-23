@@ -144,3 +144,31 @@ header .header-background{
     line-height: 51.2px;
     color: #3E7736;
 }
+.how-it-work h3{
+    color:#333333;
+}
+.how-it-work p{
+    color:#7F7F7F;
+}
+
+.how-it-work .work-item{
+box-shadow: 0 0 35px 0 #0b3d190f;
+ border-radius: 20px 0 20px 0;
+ padding: 25px 30px 25px 35px;
+}
+.how-it-work .work-no a{
+    color: #3E7736;
+}
+.how-it-work .work-no img{
+    position: absolute;
+    top: 140px;
+    right: 18px;
+}
+.work-item p {
+    margin: 10px 100px 15px 0;
+}
+
+
+
+/* OUR TEAM */
+
