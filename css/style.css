@@ -132,3 +132,15 @@ header .header-background{
     margin-left: 175px;
     padding-bottom: 15px;
 }
+
+
+/* How-It_Work */
+
+.how-it-work{
+    background-color: #F8F5F0;
+}
+.how-it-work h1{
+    font-size: 40px;
+    line-height: 51.2px;
+    color: #3E7736;
+}
