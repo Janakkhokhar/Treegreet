@@ -196,3 +196,21 @@ box-shadow: 0 0 35px 0 #0b3d190f;
     margin: 110px 25px 0 25px;
 }
 
+
+
+/* FREE TREE SOLUTION */
+
+.free-tree{
+    background-image: url(/assets/images/tree.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 630px;
+    display: flex;
+    align-items: center;
+}
+.free-tree .tree-item h1{
+    color: white;
+    font-size:60px;
+    line-height: 76px;
+    padding-right: 744px;
+}
