@@ -234,3 +234,69 @@ box-shadow: 0 0 35px 0 #0b3d190f;
     height: 287px;
     padding: 25px 20px;
 }
+
+
+
+/* FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT US PAGE */
+
+
+/* Banner */
+
+.about-banner{
+    background-image: url(/assets/images/about-pages/about-banner.png);
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 746px;
+    padding-top: 300px;
+    background-blend-mode: color-burn;
+}
+.about-title{
+    font-size: 60px;
+    line-height: 76.8px;
+    color: white;
+}
+
+
+
+
+/* about us */
+
+
+.about-page{
+    padding: 100px 0;
+}
+.about-page .image2{
+    position: absolute;
+    top: 160px;
+    left: 393px;
+}
+.about-content h1{
+    color: #3E7736;
+    font-size: 40px;
+    line-height: 51.2px;
+}
+.about-content h3{
+    color: #333333;
+    font-size: 40px;
+    line-height: 51.2px;
+    margin-top: 20px;
+    
+}
