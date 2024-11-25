@@ -266,7 +266,6 @@ box-shadow: 0 0 35px 0 #0b3d190f;
     width: 100%;
     height: 746px;
     padding-top: 300px;
-    background-blend-mode: color-burn;
 }
 .about-title{
     font-size: 60px;
@@ -306,7 +305,6 @@ box-shadow: 0 0 35px 0 #0b3d190f;
 
 /* VISION AND MISSION */
 
-
 .vision-item .vision-image{
     display: flex;
     align-items: center;
@@ -338,3 +336,39 @@ box-shadow: 0 0 35px 0 #0b3d190f;
     top: 130px;
     left: 57px;
 }
+
+
+
+
+/* Healthier Plane */
+
+
+.healthier-plane{
+    background-image: url(/assets/images/about-pages/healthier-plane.png);
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 685px;
+    display: flex;
+    align-items: center;
+    margin: 150px 0;
+}
+.healthier-item h1{
+    color: #FFFFFF;
+    font-size: 60px;
+    line-height: 76.8px;
+    padding: 0 110px;
+}
+.healthier-plane .main-box{
+    background-color: white;
+    box-shadow: 0px 0px 35px 0px #0000000D;
+    border-radius: 20px 0 20px 0;
+    width: 100%;
+    height: 190px;
+    position: absolute;
+    left: 0;
+    top: 407px;
+    z-index: 99999;
+
+}
+
