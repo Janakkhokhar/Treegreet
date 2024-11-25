@@ -300,3 +300,41 @@ box-shadow: 0 0 35px 0 #0b3d190f;
     margin-top: 20px;
     
 }
+
+
+
+
+/* VISION AND MISSION */
+
+
+.vision-item .vision-image{
+    display: flex;
+    align-items: center;
+}
+.vision-item h2{
+    color: #333333;
+    font-size: 40px;
+    line-height: 51.2px;
+    margin-left:20px;
+}
+.mission-item .mission-image{
+    display: flex;
+    align-items: center;
+}
+.mission-item h2{
+    color: #333333;
+    font-size: 40px;
+    line-height: 51.2px;
+    margin-left:20px;
+}
+ 
+.vision-mission-img1{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.vision-mission-img2{
+    position: absolute;
+    top: 130px;
+    left: 57px;
+}
