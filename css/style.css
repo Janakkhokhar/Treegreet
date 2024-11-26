@@ -491,11 +491,9 @@ footer .copyright p{
 
 
 /* Photo Gallery */
-
 .photo-gallery{
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
-
 .gellery-item h2{
     font-size: 40px;
     line-height: 51px;
@@ -516,5 +514,34 @@ footer .copyright p{
     height:153px;
     backdrop-filter: blur(38.79999923706055px);
     text-align: center;
+    padding-top: 30px;
+    background: linear-gradient(90deg, rgba(11, 61, 25, 0.74) 0%, rgba(11, 61, 25, 0.12) 100%);
+    border-radius: 20px 20px 20px 5px;
+}
 
+
+
+
+
+/* project-count  */
+
+
+.project-count{
+    background-color: #3E7736;
+}
+.project-item{
+    background-image: url(/assets/images/how-it-work-image/background-project.png);
+    width:341px;
+    height:341px;
+    padding: 40px 30px;
+}
+.project-item h2{
+    color: #FFFFFF;
+    font-size:60px;
+    line-height:76.8px;
+}
+.project-item h3{
+    color: #FFFFFF;
+    font-size:30px;
+    line-height:38.4+px;
 }
