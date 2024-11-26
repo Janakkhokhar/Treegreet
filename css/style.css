@@ -237,6 +237,9 @@ box-shadow: 0 0 35px 0 #0b3d190f;
 
 
 
+
+
+
 /* Subscribe */
 
 .subscribe{
@@ -528,6 +531,7 @@ footer .copyright p{
 
 .project-count{
     background-color: #3E7736;
+    height: 600px;
 }
 .project-item{
     background-image: url(/assets/images/how-it-work-image/background-project.png);
@@ -544,4 +548,26 @@ footer .copyright p{
     color: #FFFFFF;
     font-size:30px;
     line-height:38.4+px;
+}
+
+
+
+/* tree plantation */
+
+.tree-plantations{
+    padding: 100px 0;
+}
+.plantation-item h2{
+    color: #3E7736;
+    font-size: 40px;
+    line-height: 51.2px;
+}
+.plantation-content .tree1,.tree2{
+    box-shadow: 0px 0px 35px 0px #0000000D;
+    border-radius: 20px;
+}
+.plantation-content .tree1, .tree2 h4{
+    color:#3E7736;
+    font-size: 22px;
+    line-height: 28px;
 }
