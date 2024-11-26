@@ -616,6 +616,10 @@ footer .copyright p{
 
 /* Tree Detalis By City */
 
+
+.city-detalis{
+    padding-bottom: 100px;
+}
 .city-item{
     box-shadow: 0px 0px 35px 0px #0000000D;
     border-radius: 20px;
@@ -629,6 +633,24 @@ footer .copyright p{
     color: #7F7F7F;
     display: flex;
     align-items: start;
-    
-    
+}
+
+
+
+/* FOR A GREAT TREE */
+
+.greattree{
+   padding-bottom: 250px;
+}
+.greattree .tree-title h3{
+    color: #3E7736;
+    font-size: 40px;
+    line-height: 51.2px;
+}
+.great-item{
+    box-shadow: 0px 0px 35px 0px #0000000D;
+    border-radius: 20px 0 20px 0;
+    width: 460px;
+    height: 287px;
+    padding: 25px 20px;
 }
