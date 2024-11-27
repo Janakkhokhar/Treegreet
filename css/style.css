@@ -1,18 +1,29 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
+
+body {
     font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-ul{
-    list-style:none;
+
+ul {
+    list-style: none;
 }
-a{
-    text-decoration:none;
-    display:inline-block;
+
+a {
+    text-decoration: none;
+    display: inline-block;
     text-transform: capitalize;
+}
+
+.w-42 {
+    width: 42%;
+}
+
+.w-58 {
+    width: 58%;
 }
 
 
@@ -21,7 +32,7 @@ a{
 
 /* HEADER */
 
-header{
+header {
     margin-top: 30px;
     position: absolute;
     top: 0;
@@ -29,11 +40,12 @@ header{
     right: 0;
 }
 
-header .header-background{
+header .header-background {
     padding: 10px 25px 10px 25px;
-    border-radius:12px 0 12px 0;
+    border-radius: 12px 0 12px 0;
 }
-.header_contact{
+
+.header_contact {
     position: absolute;
     top: 18px;
     right: 208px;
@@ -43,35 +55,38 @@ header .header-background{
 
 /* BANNER */
 
-.banner{
-    background-image:url(/assets/images/bannner.png);
+.banner {
+    background-image: url(/assets/images/bannner.png);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     min-height: 994px;
     width: 100%;
     padding-top: 200px;
 }
 
 
-.banner-content h1{
+.banner-content h1 {
     width: 736px;
     font-weight: 600;
     line-height: 76.8px;
 }
+
 .banner-content p {
     width: 693px;
 }
+
 .banner-content a {
     margin-top: 40px;
     padding: 10px 30px 10px 30px;
     border-radius: 1px 50px 1px 50px;
 }
 
-.banner-content .icon-circle{
-    margin-top:40px;
+.banner-content .icon-circle {
+    margin-top: 40px;
     width: 80px;
 }
-.banner-contact{
+
+.banner-contact {
     position: absolute;
     top: 48px;
     left: 152px;
@@ -80,28 +95,33 @@ header .header-background{
 
 /* about us */
 
-.about-item{
+.about-item {
     margin: 0 45px 0 35px;
 }
-.about-item h1{
+
+.about-item h1 {
     color: #3E7736;
     font-size: 40px;
     line-height: 51.2px;
     margin-top: 75px;
 }
-.about-item img:fast-child{
+
+.about-item img:fast-child {
     margin: 5px 0 25px 0;
 }
-.about-item h2{
+
+.about-item h2 {
     color: #333333;
     font-size: 40px;
     line-height: 51.2px;
 }
-.about-item p{
+
+.about-item p {
     color: #7F7F7F;
     margin: 10px 0 25px 0;
 }
-.about-us .about .about-eye{
+
+.about-us .about .about-eye {
     background-image: url(/assets/images/box-about.png);
     background-size: cover;
     width: 150px;
@@ -111,13 +131,13 @@ header .header-background{
     align-items: center;
 }
 
-.about-box{
+.about-box {
     box-shadow: 0px 0px 35px 0px #0000000D;
-    padding-bottom:15px;
-    margin: 190px 170px 0 0 ;
+    padding-bottom: 15px;
+    margin: 190px 170px 0 0;
 }
 
-.about-us .about1 .about-eye1{
+.about-us .about1 .about-eye1 {
     background-image: url(/assets/images/box-about.png);
     background-size: cover;
     width: 150px;
@@ -126,7 +146,8 @@ header .header-background{
     justify-content: center;
     align-items: center;
 }
-.about-box1{
+
+.about-box1 {
     box-shadow: 0px 0px 35px 0px #0000000D;
     margin-top: 50px;
     margin-left: 175px;
@@ -136,34 +157,40 @@ header .header-background{
 
 /* How-It_Work */
 
-.how-it-work{
+.how-it-work {
     background-color: #F8F5F0;
 }
-.how-it-work h1{
+
+.how-it-work h1 {
     font-size: 40px;
     line-height: 51.2px;
     color: #3E7736;
 }
-.how-it-work h3{
-    color:#333333;
-}
-.how-it-work p{
-    color:#7F7F7F;
+
+.how-it-work h3 {
+    color: #333333;
 }
 
-.how-it-work .work-item{
-box-shadow: 0 0 35px 0 #0b3d190f;
- border-radius: 20px 0 20px 0;
- padding: 25px 30px 25px 35px;
+.how-it-work p {
+    color: #7F7F7F;
 }
-.how-it-work .work-no a{
+
+.how-it-work .work-item {
+    box-shadow: 0 0 35px 0 #0b3d190f;
+    border-radius: 20px 0 20px 0;
+    padding: 25px 30px 25px 35px;
+}
+
+.how-it-work .work-no a {
     color: #3E7736;
 }
-.how-it-work .work-no img{
+
+.how-it-work .work-no img {
     position: absolute;
     top: 140px;
     right: 18px;
 }
+
 .work-item p {
     margin: 10px 100px 15px 0;
 }
@@ -172,18 +199,21 @@ box-shadow: 0 0 35px 0 #0b3d190f;
 
 /* OUR TEAM */
 
-.our-team{
-    padding:100px 0;
+.our-team {
+    padding: 100px 0;
 }
-.our-team .team-title h1{
+
+.our-team .team-title h1 {
     color: #3E7736;
     font-size: 40px;
     list-style: 51.2px;
 }
-.our-team .team-content{
+
+.our-team .team-content {
     box-shadow: 0 0 35px 0 #0b3d190f;
     border-radius: 20px 0 20px 0;
 }
+
 .our-team .team-image {
     position: absolute;
     top: 0px;
@@ -191,7 +221,8 @@ box-shadow: 0 0 35px 0 #0b3d190f;
     width: 460px;
     height: 340px;
 }
-.our-team .team-content{
+
+.our-team .team-content {
     padding-top: 160px;
     margin: 110px 25px 0 25px;
 }
@@ -200,7 +231,7 @@ box-shadow: 0 0 35px 0 #0b3d190f;
 
 /* FREE TREE SOLUTION */
 
-.free-tree{
+.free-tree {
     background-image: url(/assets/images/tree.png);
     background-size: cover;
     background-position: center;
@@ -208,9 +239,10 @@ box-shadow: 0 0 35px 0 #0b3d190f;
     display: flex;
     align-items: center;
 }
-.free-tree .tree-item h1{
+
+.free-tree .tree-item h1 {
     color: white;
-    font-size:60px;
+    font-size: 60px;
     line-height: 76px;
     padding-right: 744px;
 }
@@ -219,15 +251,17 @@ box-shadow: 0 0 35px 0 #0b3d190f;
 
 /* FOR A GREAT TREE */
 
-.great-tree{
+.great-tree {
     padding: 250px 0;
 }
-.great-tree .tree-title h3{
+
+.great-tree .tree-title h3 {
     color: #3E7736;
     font-size: 40px;
     line-height: 51.2px;
 }
-.great-item{
+
+.great-item {
     box-shadow: 0px 0px 35px 0px #0000000D;
     border-radius: 20px 0 20px 0;
     width: 460px;
@@ -242,30 +276,33 @@ box-shadow: 0 0 35px 0 #0b3d190f;
 
 /* Subscribe */
 
-.subscribe{
+.subscribe {
     background-image: url(/assets/images/footer-back.png);
     background-size: cover;
     background-position: center;
     min-height: 630px;
 }
-.subscribe-item{
+
+.subscribe-item {
     box-shadow: 0px 0px 35px 0px #0000000d;
     padding: 30px 0 60px 90px
-
 }
-.subscribe-title h2{
+
+.subscribe-title h2 {
     font-size: 40px;
     line-height: 51.2px;
     color: #3E7736;
     margin-bottom: 10px;
 }
-.subscribe-item .subscribe-email input{
+
+.subscribe-item .subscribe-email input {
     width: 617px;
     border: 1px solid #cdcaca66;
     border-radius: 20px 0 20px 0;
     padding: 15px 10px;
 }
-.subscribe-item .subscribe-email a{
+
+.subscribe-item .subscribe-email a {
     width: 617px;
     background-color: #3E7736;
     font-size: 18px;
@@ -281,33 +318,38 @@ box-shadow: 0 0 35px 0 #0b3d190f;
 /* FOOTER */
 
 
-footer{
+footer {
     background-color: #0D200A;
     width: 100%;
     height: 400px;
     padding-top: 70px;
 }
-footer .footer-item  .footer-image{
+
+footer .footer-item .footer-image {
     font-size: 30.22px;
     line-height: 38.68px;
     color: #FFFFFF;
 }
-footer .link h3{
+
+footer .link h3 {
     color: #FFFFFF;
     font-size: 30px;
     line-height: 38.4px;
 }
-footer .link ul li a{
+
+footer .link ul li a {
     color: #FFFFFF;
     font-size: 18px;
     line-height: 21.6px;
 }
-footer .line img{
+
+footer .line img {
     width: 100%;
-   margin-top: 40px;
+    margin-top: 40px;
 
 }
-footer .copyright p{
+
+footer .copyright p {
     font-size: 12px;
     line-height: 14px;
     color: #FFFFFF;
@@ -333,15 +375,16 @@ footer .copyright p{
 
 /* Banner */
 
-.about-banner{
+.about-banner {
     background-image: url(/assets/images/about-image/about-banner.png);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     width: 100%;
     height: 746px;
     padding-top: 300px;
 }
-.about-title{
+
+.about-title {
     font-size: 60px;
     line-height: 76.8px;
     color: white;
@@ -353,25 +396,28 @@ footer .copyright p{
 /* about us */
 
 
-.about-page{
+.about-page {
     padding: 100px 0;
 }
-.about-page .image2{
+
+.about-page .image2 {
     position: absolute;
     top: 160px;
     left: 393px;
 }
-.about-content h1{
+
+.about-content h1 {
     color: #3E7736;
     font-size: 40px;
     line-height: 51.2px;
 }
-.about-content h3{
+
+.about-content h3 {
     color: #333333;
     font-size: 40px;
     line-height: 51.2px;
     margin-top: 20px;
-    
+
 }
 
 
@@ -379,33 +425,37 @@ footer .copyright p{
 
 /* VISION AND MISSION */
 
-.vision-item .vision-image{
+.vision-item .vision-image {
     display: flex;
     align-items: center;
 }
-.vision-item h2{
+
+.vision-item h2 {
     color: #333333;
     font-size: 40px;
     line-height: 51.2px;
-    margin-left:20px;
+    margin-left: 20px;
 }
-.mission-item .mission-image{
+
+.mission-item .mission-image {
     display: flex;
     align-items: center;
 }
-.mission-item h2{
+
+.mission-item h2 {
     color: #333333;
     font-size: 40px;
     line-height: 51.2px;
-    margin-left:20px;
+    margin-left: 20px;
 }
- 
-.vision-mission-img1{
+
+.vision-mission-img1 {
     position: absolute;
     top: 0;
     right: 0;
 }
-.vision-mission-img2{
+
+.vision-mission-img2 {
     position: absolute;
     top: 130px;
     left: 57px;
@@ -417,23 +467,25 @@ footer .copyright p{
 /* Healthier Plane */
 
 
-.healthier-plane{
+.healthier-plane {
     background-image: url(/assets/images/about-image/healthier-plane.png);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     width: 100%;
     height: 685px;
     display: flex;
     align-items: center;
     margin: 150px 0;
 }
-.healthier-item h1{
+
+.healthier-item h1 {
     color: #FFFFFF;
     font-size: 60px;
     line-height: 76.8px;
     padding: 0 110px;
 }
-.healthier-plane .main-box{
+
+.healthier-plane .main-box {
     background-color: white;
     box-shadow: 0px 0px 35px 0px #0000000D;
     border-radius: 20px 0 20px 0;
@@ -457,7 +509,7 @@ footer .copyright p{
 
 
 /* Banner */
-.work-banner{
+.work-banner {
     background-image: url(/assets/images/how-it-work-image/banner.png);
     background-position: center;
     background-size: cover;
@@ -465,27 +517,29 @@ footer .copyright p{
     height: 746px;
     padding-top: 300px;
 }
-.work-title{
+
+.work-title {
     font-size: 60px;
     line-height: 76.8px;
     color: white;
-    
+
 }
 
 
 
 /* how it work */
 
-.how-it{
+.how-it {
     padding: 100px 0;
 }
 
-.how-it .work-content h1{
+.how-it .work-content h1 {
     color: #3E7736;
     font-size: 40px;
     line-height: 51.2px;
 }
-.how-item h3{
+
+.how-item h3 {
     color: #3E7736;
     font-size: 22px;
     line-height: 28px;
@@ -494,27 +548,30 @@ footer .copyright p{
 
 
 /* Photo Gallery */
-.photo-gallery{
+.photo-gallery {
     padding-bottom: 100px;
 }
-.gellery-item h2{
+
+.gellery-item h2 {
     font-size: 40px;
     line-height: 51px;
     color: #3E7736;
 }
-.gellery-image ul li h3{
-    font-size:40px;
+
+.gellery-image ul li h3 {
+    font-size: 40px;
     line-height: 51.2px;
     color: #FFFFFF;
-    
+
 
 }
+
 .gellery-content {
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
-    height:153px;
+    height: 153px;
     backdrop-filter: blur(38.79999923706055px);
     text-align: center;
     padding-top: 30px;
@@ -526,45 +583,53 @@ footer .copyright p{
 /* project-count  */
 
 
-.project-count{
+.project-count {
     background-color: #3E7736;
     height: 600px;
 }
-.project-item{
+
+.project-item {
     background-image: url(/assets/images/how-it-work-image/background-project.png);
-    width:341px;
-    height:341px;
+    width: 341px;
+    height: 341px;
     padding: 40px 30px;
 }
-.project-item h2{
+
+.project-item h2 {
     color: #FFFFFF;
-    font-size:60px;
-    line-height:76.8px;
+    font-size: 60px;
+    line-height: 76.8px;
 }
-.project-item h3{
+
+.project-item h3 {
     color: #FFFFFF;
-    font-size:30px;
-    line-height:38.4+px;
+    font-size: 30px;
+    line-height: 38.4+px;
 }
 
 
 
 /* tree plantation */
 
-.tree-plantations{
+.tree-plantations {
     padding: 100px 0;
 }
-.plantation-item h2{
+
+.plantation-item h2 {
     color: #3E7736;
     font-size: 40px;
     line-height: 51.2px;
 }
-.plantation-content .tree1,.tree2{
+
+.plantation-content .tree1,
+.tree2 {
     box-shadow: 0px 0px 35px 0px #0000000D;
     border-radius: 20px;
 }
-.plantation-content .tree1, .tree2 h4{
-    color:#3E7736;
+
+.plantation-content .tree1,
+.tree2 h4 {
+    color: #3E7736;
     font-size: 22px;
     line-height: 28px;
 }
@@ -584,7 +649,7 @@ footer .copyright p{
 
 
 /* Banner */
-.impact-banner{
+.impact-banner {
     background-image: url(/assets/images/impact-showcase-image/banner.png);
     background-position: center;
     background-size: cover;
@@ -592,11 +657,12 @@ footer .copyright p{
     height: 746px;
     padding-top: 300px;
 }
-.impact-title{
+
+.impact-title {
     font-size: 60px;
     line-height: 76.8px;
     color: white;
-    
+
 }
 
 
@@ -604,7 +670,7 @@ footer .copyright p{
 
 /* Map */
 
-.map{
+.map {
     padding: 100px 0;
 }
 
@@ -614,19 +680,21 @@ footer .copyright p{
 /* Tree Detalis By City */
 
 
-.city-detalis{
+.city-detalis {
     padding-bottom: 100px;
 }
-.city-item{
+
+.city-item {
     box-shadow: 0px 0px 35px 0px #0000000D;
     border-radius: 20px;
     margin-right: 90px;
 }
 
-.city-item h2{
+.city-item h2 {
     padding: 15px 0 10px 0;
 }
-.city-item p{
+
+.city-item p {
     color: #7F7F7F;
     display: flex;
     align-items: start;
@@ -636,15 +704,17 @@ footer .copyright p{
 
 /* FOR A GREAT TREE */
 
-.greattree{
-   padding-bottom: 250px;
+.greattree {
+    padding-bottom: 250px;
 }
-.greattree .tree-title h3{
+
+.greattree .tree-title h3 {
     color: #3E7736;
     font-size: 40px;
     line-height: 51.2px;
 }
-.great-item{
+
+.great-item {
     box-shadow: 0px 0px 35px 0px #0000000D;
     border-radius: 20px 0 20px 0;
     width: 460px;
@@ -663,7 +733,7 @@ footer .copyright p{
 
 
 /* Banner */
-.gift-banner{
+.gift-banner {
     background-image: url(/assets/images/goft-option-image/banner.png);
     background-position: center;
     background-size: cover;
@@ -671,11 +741,12 @@ footer .copyright p{
     height: 746px;
     padding-top: 300px;
 }
-.gift-title{
+
+.gift-title {
     font-size: 60px;
     line-height: 76.8px;
     color: white;
-    
+
 }
 
 
@@ -683,19 +754,21 @@ footer .copyright p{
 /* Nurture Nature */
 
 
-.nature-nature{
+.nature-nature {
     padding: 100px 0;
 }
 
-.nature-title h2{
+.nature-title h2 {
     color: #3E7736;
     font-size: 40px;
     line-height: 51px;
 }
-.box-main{
+
+.box-main {
     background-image: url(/assets/images/goft-option-image/Rectangle\ 6628.png);
 }
-.box1-item h3{
+
+.box1-item h3 {
     color: #3E7736;
     font-size: 22px;
     line-height: 28px;
@@ -706,19 +779,126 @@ footer .copyright p{
 
 /* FOR A GREAT TREE */
 
-.great-gift{
+.great-gift {
     padding-bottom: 250px;
- }
- .great-gift .gift-title h3{
-     color: #3E7736;
-     font-size: 40px;
-     line-height: 51.2px;
- }
- .gift-item{
-     box-shadow: 0px 0px 35px 0px #0000000D;
-     border-radius: 20px 0 20px 0;
-     width: 460px;
-     height: 287px;
-     padding: 25px 20px;
- }
- 
+}
+
+.great-gift .gift-title h3 {
+    color: #3E7736;
+    font-size: 40px;
+    line-height: 51.2px;
+}
+
+.gift-item {
+    box-shadow: 0px 0px 35px 0px #0000000D;
+    border-radius: 20px 0 20px 0;
+    width: 460px;
+    height: 287px;
+    padding: 25px 20px;
+}
+
+
+
+
+
+
+
+
+/* Community page */
+
+
+/* banner */
+
+.community-banner {
+    background-image: url(/assets/images/community-image/banner.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 746px;
+    padding-top: 300px;
+}
+
+.comm-title {
+    font-size: 60px;
+    line-height: 76.8px;
+    color: white;
+
+}
+
+
+
+/* Cultivating Community */
+
+.cultivating {
+    padding: 100px 0;
+}
+
+.cultivating-title h2 {
+    font-size: 40px;
+    line-height: 51px;
+    color: #3E7736;
+}
+
+.cultivating-item h2 {
+    font-size: 40px;
+    line-height: 51px;
+    color: #3E7736;
+    padding: 10px 0 10px 17px;
+}
+
+.cultivating-item {
+    background-image: url(/assets/images/community-image/box.png);
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.community-title {
+    background-image: url(/assets/images/community-image/box.png);
+    width: 600px;
+    padding: 15px 22px 15px 15px;
+}
+
+.cultivating-content h4 {
+    color: #7F7F7F;
+    font-size: 18px;
+    list-style: 21px;
+}
+
+.donation-item1 {
+    background-image: url(/assets/images/community-image/community-1.png);
+    width: 790px;
+    height: 420px;
+}
+.donation-btn{
+    background-color: #3E7736;
+    width: 158px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 17px 0 0 17px;
+    
+}
+.donation-btn a {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 21px;
+    border-radius: 5px;
+}
+.donation-content h2{
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+}
+.donation-item2 {
+    background-image: url(/assets/images/community-image/community-2.png);
+    width: 790px;
+    height: 420px;
+    margin: 15px 0;
+}
+.donation-item3 {
+    background-image: url(/assets/images/community-image/community-3.png);
+    width: 790px;
+    height: 420px;
+}
