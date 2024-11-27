@@ -1018,3 +1018,53 @@ footer .copyright p {
 }
 
 
+
+
+/* Fill Form */
+
+.form-box{
+    box-shadow: 0px 0px 40px 0px #00000012;
+    border-radius: 20px 0 20px 0;
+}
+
+.form-content h2{
+    color: #3E7736;
+    font-size: 40px;
+    line-height: 51px;
+}
+.get-touch h2{
+    color: #3E7736;
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+.get-touch ul li{
+    display: flex;
+    align-items: center;
+}
+.get-touch ul li p{
+    color: #333333;
+    font-size:18px;
+    line-height:21px;
+    margin-left: 15px;
+}
+.form-detalis input {
+    width: 438px;
+    border: 1px solid #cdcaca66;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.form-detalis a {
+    width: 438px;
+    background-color: #3E7736;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
